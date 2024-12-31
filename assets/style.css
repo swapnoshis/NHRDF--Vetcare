@@ -1,0 +1,150 @@
+/* Header Section CSS */
+
+.header_section input::placeholder{
+    color: rgb(255, 255, 255);
+}
+
+ .form-control:focus {
+    box-shadow: none;
+}
+/* first_wanted_section */
+.first_wanted_section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.first_wanted_section .left_col{
+    align-content: center;
+}
+
+.first_wanted_section .btn-info:focus {
+     box-shadow:none;
+}
+.first_wanted_section .btn-outline-light:focus {
+    box-shadow: none;
+}
+.first_wanted_section .btn-outline-light:hover {
+     background: none;
+}
+/* as a vaterian CSS */
+.as_a_vaterian_section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.as_a_vaterian_section .left_col{
+    align-content: center;
+}
+ .btn-info:focus {
+    box-shadow:none;
+}
+.as_a_vaterian_section .left_col .btn-warning:focus {
+    box-shadow: none;
+}
+.as_a_vaterian_section .right_col{
+    position: relative;
+}
+.as_a_vaterian_section .right_col::after {
+    content: '';
+    position: absolute;
+    background-color: #fcc302;
+    width: 260px;
+    height: 215px;
+    left: -12px;
+    bottom: -22px;
+    z-index: -1;
+}
+
+/* title_here_section */
+.title_here_section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.title_here_section .header_text h1{
+    font-size: 60px;
+}
+.title_here_section .header_text p{
+    line-height: 20px;
+}
+.title_here_section .header_text{
+    padding-bottom: 80px;
+}
+.title_here_section .img_part{
+    text-align:center;
+}
+.title_here_section .img_part .img_col p{
+    line-height: 10px;
+    color: white;
+}
+.title_here_section .img_part .img_col h3{
+    color: white;
+}
+/* as a vaterian bottom CSS */
+.as_a_vaterian_section_bottom{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.as_a_vaterian_section_bottom .left_col{
+    align-content: center;
+}
+.as_a_vaterian_section_bottom.btn-info:focus {
+    box-shadow:none;
+}
+.as_a_vaterian_section_bottom .left_col .btn-warning:focus {
+    box-shadow: none;
+}
+.as_a_vaterian_section_bottom .right_col{
+    position: relative;
+}
+.as_a_vaterian_section_bottom .right_col::after {
+    content: '';
+    position: absolute;
+    background-color: #fcc302;
+    width: 260px;
+    height: 215px;
+    left: 283px;
+    bottom: -22px;
+    z-index: -1;
+}
+
+
+.vetcare_team_section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.vetcare_team_section .header_text h1{
+    font-size: 60px;
+    padding-bottom: 15px;
+}
+.vetcare_team_section .header_text p{
+    line-height: 10px;
+}
+.vetcare_team_section .img_part{
+    text-align:center;
+}
+.vetcare_team_section .img_part .img_col p{
+    line-height: 10px;
+}
+.vetcare_team_section .img_part .img_col img{
+    
+}
+
+/* recent post CSS */
+.recentpost_section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.recentpost_section .header_text h1{
+    font-size: 60px;
+    padding-bottom: 15px;
+}
+.recentpost_section .header_text p{
+    line-height: 10px;
+}
+.recentpost_section .row>* {
+    padding-right: calc(var(--bs-gutter-x) * .0);
+    padding-left: calc(var(--bs-gutter-x) * .0);
+}
+
+/* footer CSS */
+.right_col .d-flex {
+    justify-content: flex-end;
+}
